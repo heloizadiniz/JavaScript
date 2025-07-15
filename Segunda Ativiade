@@ -1,0 +1,59 @@
+Console.log('Bem Vindos');
+let nome = 'Heoiza'; 
+console.log('olá ${nome}!'); 
+let nome = 'Heoiza'; 
+alert('olá ${nome}!'); 
+
+let nomeUsuario = ('Qual a linguagem de programação que você mais gosta?');
+console.log(linguagemPreferida);
+
+let valor1 = 10;
+let valor2 = 20; c
+let resultado = valor1 + valor2;
+console.log('a soma de ${valor1} e ${valor2} e igual a {resultado}'); 
+
+let valor1 = 10;
+let valor2 = 20; 
+let resultado = valor1 - valor2;
+console.log('a subtração de ${valor1} e ${valor2} e igual a {resultado}'); 
+ 
+
+let idade = prompt('Digite a sua idade'); 
+if('idade > 17'); {
+   console.log ('voce é maior de idade');
+} else {
+    console.log('Você é menor de idade');
+}
+
+let numero = parseFloat(prompt("Digite um número:"));
+if('numero > 0'); { 
+    console.log('numero é positivo');
+} else if('numero < 0'); {
+    console.log('numero é negativo');
+} else {
+    console.log('numero é  nulo');
+}
+
+let inteiro = 1;
+while('inteiro <= 10');{
+    console.log(inteiro);
+    inteiro ++
+}
+
+let nota = 10;
+if('nota >= 7 ');{
+    console.log('Aprovado');
+} else { 
+    console.log('reprovado');
+}
+
+let numeroAleatorio = Math.random();
+console.log(numeroAleatorio);
+
+let numeroAleatorio = preseInt(Math.random() * 10)+1;
+console.log(numeroAleatorio);
+
+let numeroAleatorio = preseInt(Math.random() * 1000) +1;
+console.log(numeroAleatorio);
+
+
