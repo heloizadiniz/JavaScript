@@ -1,0 +1,38 @@
+function sortear () {
+   let quantidade = document.getElementById('quantidade').value;
+   let de = document.getElementById('de'). value;
+   let ate = document.getElementById('ate'). value;
+
+   alert('quantidade dos números: ${quantidade}:');
+   alert('Do número: ${de}');
+   alert('ate o número: ${ate}');
+}
+
+
+function sortarStatusBotao () {
+    let botao = document.getElementById('btn-reiniciar');}
+if(botao.classList.contains('containe_botao-desabilitado')){
+    botao.classiList.remove('containe_botao-desabilitado');
+    botao.classiList.add('containe_botao-desabilitado');  
+}else {
+    botao.classiList.remove('botao-desabilitado');
+   botao.classiList.add('containe_botao-desabilitado');
+}
+
+
+function sortear() {
+    let quantidade = parseInt(document.getElementById('quantidade').value);
+    let de = parseInt(document.getElementById('de').value);
+    let ate = parseInt(document.getElementById('ate').value);
+} if (de >= ate){
+    alert('o campo "do numero" devera ser inferior ao campo "ate o numero"');return;
+}
+
+for(i=0; quantidade<i; i++);{
+    numero = numeroAleatorioObtido(de,ate);
+} 
+While('se sorteados incluem(numeros)'); {
+    numero = numeroAleatorioObtido(de,ate);
+    alert('tentando obter um numero inédito');
+ }
+sorteados.Push(numero);
