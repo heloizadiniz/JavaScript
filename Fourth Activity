@@ -1,0 +1,56 @@
+function alterarStatus(id){ 
+let gameClicado = document.getElementById( `game - ${id}`);
+let imagem = document.getElementById('dashboard__item__img');
+let butao = document.getElementById('dashboard__item__button');
+let nomeJogo = gameClicado.querySelector('.dashboard__item__name');
+}
+if(imagem.classlist.contations ('dashboard__item__img--rented')){
+    imagem.classlist.remove ('dashboard__item__img--rented');
+    butao.classlist.remove('dashboard__item__button--rented');
+    botao.textContent(alugar);
+
+} else{
+    imagem.classlist.add ('dashboard__item__img--rented');
+    butao.classlist.add('dashboard__item__button--rented');
+    botao.textContent(devolver);
+
+}
+   
+
+
+
+let jogosAlugados = 0;
+function contarOsJogosAlugados(){
+    console.log(`total de jogos alugados: $(JogosAlugados)`;
+}
+
+
+function alterarStatus(id){ 
+let gameClicado = document.getElementById( `game - ${id}`);
+let imagem = document.getElementById('dashboard__item__img');
+let butao = document.getElementById('dashboard__item__button');
+let nomeJogo = gameClicado.querySelector('.dashboard__item__name');
+}
+if(imagem.classlist.contations ('dashboard__item__img--rented')){
+    imagem.classlist.remove ('dashboard__item__img--rented');
+    butao.classlist.remove('dashboard__item__button--rented');
+    botao.textContent(alugar);
+    jogosAlugados++
+} else{
+    imagem.classlist.add ('dashboard__item__img--rented');
+    butao.classlist.add('dashboard__item__button--rented');
+    botao.textContent(devolver);
+    jogosAlugados++
+
+}
+   document.addEventListener('DOMContentLoaded', function() {
+    jogosAlugados = document.querySelectorAll('.dashboard__item__img--rented').length;
+    contarEExibirJogosAlugados();
+
+
+
+    
+
+ function numerosOrdenados(){
+    const numerosOrdenados = [a, b, c].sort((x, y) => x - y);
+    console.log(`Números ordenados: ${numerosOrdenados.join(', ')}`);
