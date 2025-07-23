@@ -29,3 +29,15 @@ function adicionar(){
 
 
 }
+
+
+
+
+
+function recuperandovalores(){
+    let nome = document.getElementById('nome').values;
+    let idade = document.getElementById('idade').values;
+
+    document.getElementById('mostrarNome').textContent = `Nome ${nome},idade ${idade}`; 
+    console.log (`Nome ${nome},idade ${idade}`);
+}
