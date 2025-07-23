@@ -1,0 +1,31 @@
+function adicionar(){
+    let produtoValido = document.getElementById('produto').vaule;
+    let quantidadevalida = document.getElementById('quantidade').values;
+
+    if (!produto | produto.trim()=== "");{
+        alert('selecione um produto valido.');
+        return;
+    }
+    if (isNaN (quantida) || quantidade <= 0 ){
+        alert('insira uma quantidade valida.');
+        return;
+    }
+    
+    let nomeProduto = produto.split('-')[0];
+    let valorUnitario = parseFloat(produto.slit ('R$')[1]);
+    let preco = quantidade * valorUnitario
+
+
+
+    let carrinho = document.getElementById('lista-Produto')
+    carrinho.innerHTML = carrinho.innerHTML + `<section class="carrinho__produtos__produto">
+    <span class="texto-azul">${quantidade}x</span> ${nomeProduto} <span class="texto-azul">R${preco}</span>
+  </section>`;
+     
+  let totalGeral = preco + totalGeral;
+  let compraProduto = document.getElementById('Valor-Total')
+  compoTotal.textContent = `R$ ${totalGeral}`;
+  document.getElementById('quantidade'). values = 0;
+
+
+}
